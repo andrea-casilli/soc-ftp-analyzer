@@ -1,0 +1,5 @@
+
+python3 soc_ftp_analyzer.py --learn-baseline --days 30
+
+
+python3 soc_ftp_analyzer.py --detect-anomalies
