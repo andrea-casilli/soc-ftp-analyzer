@@ -1,0 +1,21 @@
+{
+  "timestamp": "2024-01-15T10:30:45",
+  "hostname": "ftp-server-01",
+  "findings": [
+    {
+      "type": "brute_force_attack",
+      "description": "Possible brute force attack from IP: 192.168.1.100",
+      "ip": "192.168.1.100",
+      "attempts": 15,
+      "severity": "CRITICAL",
+      "timestamp": "2024-01-15T10:30:45"
+    }
+  ],
+  "statistics": {
+    "total_log_entries": 15432,
+    "failed_logins": 287,
+    "successful_logins": 43,
+    "suspicious_commands": 12,
+    "data_transfers": 89
+  }
+}
