@@ -1,0 +1,8 @@
+# Email alerts for critical findings
+python3 soc_ftp_analyzer.py --alert-email soc@example.com
+
+# Slack integration
+python3 soc_ftp_analyzer.py --webhook https://hooks.slack.com/services/XXX/YYY/ZZZ
+
+# Custom script execution
+python3 soc_ftp_analyzer.py --on-critical /usr/local/bin/incident-response.sh
