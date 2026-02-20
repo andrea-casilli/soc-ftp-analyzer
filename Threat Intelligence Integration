@@ -1,0 +1,5 @@
+# Update known malicious IPs from threat feed
+curl -s https://threat-feed.example.com/malicious-ips.txt > config/malicious_ips.txt
+
+# Convert to JSON format
+python3 utils/update_threat_intel.py
