@@ -1,0 +1,9 @@
+{
+  "ftp_log_paths": [
+    "/var/log/vsftpd.log",
+    "/var/log/proftpd/proftpd.log"
+  ],
+  "suspicious_commands": ["STOR", "DELE", "SITE"],
+  "brute_force_threshold": 10,
+  "brute_force_window_seconds": 300
+}
