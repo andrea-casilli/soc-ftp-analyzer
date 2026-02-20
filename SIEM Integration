@@ -1,0 +1,5 @@
+# Export to CSV for SIEM ingestion
+python3 soc_ftp_analyzer.py --output json | jq -r '.findings[] | [.timestamp, .type, .severity, .description] | @csv' > findings.csv
+
+# Syslog forwarding
+python3 soc_ftp_analyzer.py --output json | logger -t ftp-analyzer
