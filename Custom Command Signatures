@@ -1,0 +1,14 @@
+{
+  "custom_signatures": [
+    {
+      "pattern": "STOR.*\\.(jar|war|ear)$",
+      "description": "Java archive upload",
+      "severity": "MEDIUM"
+    },
+    {
+      "pattern": "SITE (EXEC|CHMOD|UMASK)",
+      "description": "Site command with execution",
+      "severity": "HIGH"
+    }
+  ]
+}
