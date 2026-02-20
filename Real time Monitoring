@@ -1,0 +1,3 @@
+tail -f /var/log/vsftpd.log | python3 soc_ftp_analyzer.py --stream
+
+tail -f /var/log/vsftpd.log | python3 soc_ftp_analyzer.py --stream --alert-webhook https://hooks.slack.com/services/XXX
