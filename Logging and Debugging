@@ -1,0 +1,6 @@
+export FTP_ANALYZER_DEBUG=1
+
+python3 soc_ftp_analyzer.py
+
+
+python3 soc_ftp_analyzer.py --debug 2>&1 | tee debug.log
